@@ -530,13 +530,13 @@ a:hover, a:active, a:focus {
 
 #contact {
   background: #E9724C;
- 
+  height: 26.5vh;
 }
 
 #contact .contact-form,
 #contact .contact-thumb {
   padding: 22px 32px 22px 32px;
- 
+ height: 26.5vh;
 }
 
 #contact .contact-img {
