@@ -531,6 +531,7 @@ a:hover, a:active, a:focus {
 #contact {
   background: #E9724C;
   height: 26.5vh;
+  padding-bottom: 15vh;
 }
 
 #contact .contact-form,
@@ -698,7 +699,7 @@ footer {
 
   .background-image {
     position: relative;
-    min-height: relative;
+    min-height: 65vh;
   }
 }
 
