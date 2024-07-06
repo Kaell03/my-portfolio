@@ -530,19 +530,19 @@ a:hover, a:active, a:focus {
 
 #contact {
   background: #E9724C;
-  height: 26.5vh;
-  padding-bottom: 15vh;
+  min-height: 26.5vh; 
+ 
 }
 
 #contact .contact-form,
 #contact .contact-thumb {
   padding: 22px 32px 22px 32px;
- height: 26.5vh;
+  min-height: 26.5vh; 
 }
 
 #contact .contact-img {
   background: url('../images/contact-img.jpg') no-repeat;
-  min-height: 26.5vh;
+  min-height: 26.5vh; 
 }
 
 #contact .contact-info {
@@ -593,60 +593,14 @@ a:hover, a:active, a:focus {
   padding-right: 10px;
 }
 
-
-
 /*---------------------------------------
    Footer section              
 -----------------------------------------*/
 
 footer {
-    padding: 50px 0px;
-    height: 15vh;
+  padding: 50px 0px;
+  background: #333;
 }
-
-
-
-/*---------------------------------------
-   Social icon             
------------------------------------------*/
-
-.social-icon {
-    position: relative;
-    padding: 0;
-    margin: 0;
-    text-align: center;
-}
-
-.social-icon li {
-    display: inline-block;
-    list-style: none;
-}
-
-.social-icon li a {
-    border: 2px solid transparent;
-    color: #999;
-    border-radius: 100px;
-    cursor: pointer;
-    font-size: 16px;
-    text-decoration: none;
-    transition: all 0.4s ease-in-out;
-    width: 50px;
-    height: 50px;
-    line-height: 50px;
-    text-align: center;
-    vertical-align: middle;
-    position: relative;
-    margin: 22px 4px 10px 4px;
-}
-
-.social-icon li a:hover {
-    background: #E3AE57;
-    border-color: #ffffff;
-    color: #ffffff;
-    transform: scale(1.1);
-}
-
-
 
 /*---------------------------------------
    Mobile Responsive         
@@ -700,6 +654,14 @@ footer {
   .background-image {
     position: relative;
     min-height: 65vh;
+  }
+  
+  footer {
+    padding: 15px 0;
+  }
+
+  #contact {
+    padding-bottom: 0px; 
   }
 }
 
