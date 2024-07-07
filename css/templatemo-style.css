@@ -530,19 +530,19 @@ a:hover, a:active, a:focus {
 
 #contact {
   background: #E9724C;
-  min-height: 26.5vh; 
+  min-height: 31.3vh; 
  
 }
 
 #contact .contact-form,
 #contact .contact-thumb {
   padding: 22px 32px 22px 32px;
-  min-height: 26.5vh; 
+  min-height: 31.3vh; 
 }
 
 #contact .contact-img {
   background: url('../images/contact-img.jpg') no-repeat;
-  min-height: 26.5vh; 
+  min-height: 31.3vh; 
 }
 
 #contact .contact-info {
@@ -590,7 +590,7 @@ a:hover, a:active, a:focus {
 }
 
 #contact .fa {
-  padding-right: 10px;
+  padding-right: 1px;
 }
 
 /*---------------------------------------
