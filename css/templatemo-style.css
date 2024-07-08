@@ -379,8 +379,14 @@ a:hover, a:active, a:focus {
   padding: 0 45px 0 45px;
 }
 
+#home .resume{
+  margin: 15vh 0vh;
+  font-size: 15px ;
+}
 
-
+#home p1{
+  font-size: 15px;
+}
 /*---------------------------------------
    About section              
 -----------------------------------------*/
