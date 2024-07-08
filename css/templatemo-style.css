@@ -387,6 +387,7 @@ a:hover, a:active, a:focus {
 #home p1{
   font-size: 15px;
 }
+
 /*---------------------------------------
    About section              
 -----------------------------------------*/
@@ -542,7 +543,7 @@ a:hover, a:active, a:focus {
 
 #contact .contact-form,
 #contact .contact-thumb {
-  padding: 0px 0px 0px 10px;
+  padding: 0px 32px 22px 32px;
   min-height: 31.3vh; 
 }
 
@@ -596,7 +597,7 @@ a:hover, a:active, a:focus {
 }
 
 #contact .fa {
-  padding-right: 0px;
+  padding-right: 1px;
 }
 
 /*---------------------------------------
@@ -688,6 +689,8 @@ footer {
   #contact .container {
     padding-right: 15px;
     padding-left: 15px;
+    max-width: 100%;
+  margin: 0 auto;
   }
 
   #about .col-md-3,
